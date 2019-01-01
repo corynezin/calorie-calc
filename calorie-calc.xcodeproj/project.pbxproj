@@ -12,6 +12,7 @@
 		A56F193021DC059C00A94AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56F192E21DC059C00A94AE5 /* Main.storyboard */; };
 		A56F193221DC059D00A94AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56F193121DC059D00A94AE5 /* Assets.xcassets */; };
 		A56F193521DC059D00A94AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56F193321DC059D00A94AE5 /* LaunchScreen.storyboard */; };
+		A56F193D21DC05BC00A94AE5 /* calorie-calc in Resources */ = {isa = PBXBuildFile; fileRef = A56F193C21DC05BC00A94AE5 /* calorie-calc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A56F193121DC059D00A94AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56F193421DC059D00A94AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A56F193621DC059D00A94AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56F193C21DC05BC00A94AE5 /* calorie-calc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "calorie-calc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				A56F192921DC059C00A94AE5 /* calorie-calc */,
+				A56F193C21DC05BC00A94AE5 /* calorie-calc */,
 				A56F192821DC059C00A94AE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 				A56F193521DC059D00A94AE5 /* LaunchScreen.storyboard in Resources */,
 				A56F193221DC059D00A94AE5 /* Assets.xcassets in Resources */,
 				A56F193021DC059C00A94AE5 /* Main.storyboard in Resources */,
+				A56F193D21DC05BC00A94AE5 /* calorie-calc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
