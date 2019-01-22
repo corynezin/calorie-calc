@@ -12,6 +12,8 @@
 		A56F193021DC059C00A94AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56F192E21DC059C00A94AE5 /* Main.storyboard */; };
 		A56F193221DC059D00A94AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56F193121DC059D00A94AE5 /* Assets.xcassets */; };
 		A56F193521DC059D00A94AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56F193321DC059D00A94AE5 /* LaunchScreen.storyboard */; };
+		A56F194321DC7CD700A94AE5 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F194221DC7CD700A94AE5 /* Goal.swift */; };
+		A56F194521DC83B800A94AE5 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F194421DC83B800A94AE5 /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A56F193121DC059D00A94AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56F193421DC059D00A94AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A56F193621DC059D00A94AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56F194221DC7CD700A94AE5 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		A56F194421DC83B800A94AE5 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				A56F192A21DC059C00A94AE5 /* AppDelegate.swift */,
 				A56F192C21DC059C00A94AE5 /* ViewController.swift */,
+				A56F194421DC83B800A94AE5 /* LandingViewController.swift */,
 				A56F192E21DC059C00A94AE5 /* Main.storyboard */,
 				A56F193121DC059D00A94AE5 /* Assets.xcassets */,
 				A56F193321DC059D00A94AE5 /* LaunchScreen.storyboard */,
 				A56F193621DC059D00A94AE5 /* Info.plist */,
+				A56F194221DC7CD700A94AE5 /* Goal.swift */,
 			);
 			path = "calorie-calc";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56F192D21DC059C00A94AE5 /* ViewController.swift in Sources */,
+				A56F194321DC7CD700A94AE5 /* Goal.swift in Sources */,
+				A56F194521DC83B800A94AE5 /* LandingViewController.swift in Sources */,
 				A56F192B21DC059C00A94AE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import os.log
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     var calorieCountInteger = 0
     var calorieList:[Int] = []
-        
+    var goals:[Goal] = [Goal(weeklyAmount: 11200, dailyAmount: 1600)!]
+    @IBOutlet weak var historyPicker: UIPickerView!
     @IBOutlet weak var calorieCount: UILabel!
     @IBOutlet weak var calorieInput: UITextField!
     
@@ -56,18 +58,27 @@ class ViewController: UIViewController {
     }
     
     func updateCalories() {
+        self.historyPicker.reloadAllComponents()
         calorieInput.text = ""
         calorieCount.text = String(calorieCountInteger)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Cory was here
-        // Cheers to making new years resolutions!
-        // And one more
-        // another one
-        // Do any additional setup after loading the view, typically from a nib.
+        self.historyPicker.delegate = self
+        self.historyPicker.dataSource = self
     }
-
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return self.calorieList.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return String(self.calorieList[self.calorieList.count-1 - row])
+    }
 }
 
